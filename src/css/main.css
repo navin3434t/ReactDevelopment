@@ -1,0 +1,80 @@
+/* Your local CSS File */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(../fonts/Roboto-Bold.ttf) format('truetype');
+}
+body{
+	font-family:'Roboto','sans-serif';
+	margin:0;
+	padding:0;
+}
+.footer{
+	  position:fixed;
+	  width:100%;
+	  bottom:0;
+	  
+	  left:0;
+
+}
+.header{
+	position:fixed;
+	width:100%;
+	left:0;
+	height:60px;
+	top:0;
+	
+	background:red;
+}
+.logoDiv{
+	padding:10px;
+	color:white;
+	font-weight:bold;
+}
+.footerLink{
+	    width:25%;
+		float:left;
+		text-decoration: none;
+		background:red;
+		font-weight:bold;
+		padding-top:10px;
+		padding-bottom:10px;
+		text-align:center;
+		height:60px;
+		color:#ffffff	
+}
+
+	.loadingIndi {
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: #ccc;
+    opacity: 0.9;
+    display:none;
+}
+
+.load_inner_container {
+    height: 40vh;
+    margin-top: 46vh;
+    text-align: center;
+    color: #d01a1a;
+}
+
+.bold_text {
+    font-weight: bold;
+    font-size: 27px;
+}
+.smaller_text img {
+    width: 50px;
+}
+.homeMiddleBody{
+	padding: 70px 10px 40px 10px;
+    min-height: calc(100vh - 100px);
+    overflow: auto;
+}
+

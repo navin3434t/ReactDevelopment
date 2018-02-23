@@ -1,0 +1,34 @@
+html,body{padding:0px;margin:0px;width:100%;height:100%;font-family: 'Roboto', sans-serif !important;}
+.main-page{width:100%;height:100vh;}
+input::placeholder {color:#fff !important;}
+.text-center{text-align:center;}
+
+.main-screen{width:100%;height:100vh;background-image:url(../images/final-image.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;position:fixed;}
+.screen-ovrly{position:absolute;width:100%;height:100vh;background-color:rgba(0, 0, 0, 0.81);top:0px;left:0px;bottom:0px;}
+.customer-profile-main{position:relative;top:20vh;}
+.field-start-forget{padding-top:20px;}
+.profile-area{width:140px;height:140px;border-radius:50%;border:2px solid #fff;margin: auto;position: relative;}
+.inboxx{background-color:transparent !important;border:none !important;color:#fff !important;padding-left:40px !important;position:relative;outline:0 !important;font-size: 16px !important;
+font-family: 'Roboto', sans-serif !important;}
+.forget-mention{position:relative;top:23vh;width: 90%;margin: auto;}
+.login-barone{position:relative;border-bottom: 1px solid #efecec !important;margin-bottom:12px;}
+.ficon{color:#fff;position:absolute;top:10px;font-size: 18px !important;left: 10px;}
+.inboxx2{background-color:#e91e27 !important;color:#fff !important;font-size:22px !important;cursor:pointer;font-family: 'Roboto', sans-serif !important;padding-top:15px;margin-top: 20px !important;
+border-radius: 0px !important;border:none !important;}
+.forget-m{color:#fff;cursor:pointer;font-family: 'Roboto', sans-serif !important;padding-top:3px;}
+.customer-profile {
+   width: 35px;
+    position: absolute;
+    top: 35%;
+    left: 38%;
+}
+.bck-login{font-size: 15px;padding-top: 3px;}
+.forget-psw{color:#fff !important;margin-bottom:5px;}
+.para-forget{font-size: 13px;margin-bottom:10px;}
+.form-control:focus {
+    border-color: transparent !important;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0) !important;
+}
+.text-red a{color:#e91e27;text-decoration:none !important;}
+.text-red a:hover , .text-red a:focus{color:#e91e27;text-decoration:none !important;}
+.ntnow{padding-top:5px;}

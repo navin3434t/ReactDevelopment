@@ -1,0 +1,599 @@
+body, html{
+    width:100%;
+     margin:0;
+     padding:0;
+}
+ .clock {
+     margin-left:auto;
+     margin-right:auto;
+     margin-top: 10%;
+     color:#fff;
+}
+ #Date {
+     font-size:15px;
+     text-align:center;
+}
+ ul {
+     margin:0 auto;
+     padding:0px;
+     list-style:none;
+     text-align:center;
+}
+ ul li {
+     font-size:50px;
+     display: inline;
+}
+ #point {
+     position:relative;
+}
+ .headerstyle a{
+    color:#fff !important;
+}
+ .form-control:focus {
+     background-color:#e9e9e9 ;
+     border-color:#000 ;
+     box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0) ;
+}
+ .focusclor:focus{
+    background-color:#fff !important;
+}
+ .headerstyle{
+    background:#e91e27;
+    height: 60px;
+    position:fixed;
+    top:0px;
+    width:100%;
+}
+ .head h4{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+     top: 20px;
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+     font-family:'SF Display', sans-serif;
+    ;
+     font-weight:500;
+}
+ #dogprofile{
+    background: #203c46 url(../images/dog1.jpg);
+    background-size: cover;
+     height: 30vh;
+     top:60px;
+     background-position: center;
+     background-repeat: no-repeat;
+    position:relative;
+}
+ .color-overlay {
+    position: absolute;
+     top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-color: rgba(0, 0, 0, 0.49);
+}
+ .clock{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+     font-family: 'Roboto', sans-serif;
+    font-size: 44pt;
+     transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+}
+ #doglist{
+    background: #d7d7d7;
+    overflow-y: auto;
+    margin-top: 70px;
+    padding-bottom:70px;
+}
+ .liststyle{
+    background:#fff;
+     padding:10px;
+    border-radius: 6px;
+     border: 1px solid #5f5f5f;
+    box-shadow: 1px 1px 2px 1px #686767;
+     margin-bottom:10px;
+}
+ .dogimg img{
+    height:70px;
+     width:70px;
+     border-radius:50%;
+     border:2px solid #000;
+    box-shadow: 1px 2px 1px 1px #9a9a9a;
+}
+ .liststyle h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight:500;
+     color: #e91e27;
+     padding-top: 10px;
+     margin-bottom: 5px;
+}
+ .liststyle span{
+    font-family: 'Roboto', sans-serif;
+     color: #737373;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 20px;
+}
+ .liststyle h5,.liststyle h6{
+    font-family: 'Roboto', sans-serif;
+     font-size: 13px;
+     font-weight:500;
+     color: #2a2a2a;
+     margin-bottom: 5px;
+}
+ .liststyle h6{
+    font-size:15px;
+  
+}
+ .footerstyle{
+    background:#e91e27;
+     height:10vh;
+     position:relative;
+}
+ .footerstyle a:hover{
+     text-decoration: none;
+}
+ .userpic img {
+     width: 100px;
+}
+ .footer-icon-active{
+    text-align:center;
+     color:#fff;
+     font-family:'Roboto', sans-serif;
+     padding: 10px 0px;
+     font-size:14px;
+}
+ .footer-icon{
+    text-align:center;
+     color:#bebebe;
+     font-family: 'Roboto', sans-serif;
+    padding: 10px 0px;
+    font-size:14px;
+     font-weight:500;
+}
+ .mrgn-t{
+    margin-top:5%;
+}
+/***--- Dog Customer Listing SCREEN CSS ---****/
+ .search-bar-main{
+    width: 100%;
+    position: fixed;
+    top: 10vh;
+     height: 11vh;
+    z-index:99999;
+     background-color: #d7d7d7;
+    z-index: 9999999;
+}
+ input.srchboxn{
+    border: none;
+    outline: 0;
+     background-color: #e9e9e9;
+    height: 40px;
+     width:100%;
+    margin: auto;
+}
+ .srch-main{
+     background-color: #e9e9e9;
+    height: 40px;
+    border-radius: 7px;
+     position:absolute;
+     top:10px;
+     left:25px;
+     right:25px;
+}
+ .srch-l-r{
+    font-size: 22px !important;
+    padding-top: 9px;
+}
+ .form-group{
+    width: 100%;
+     margin: auto;
+     margin-right: 0px;
+     margin-left: 0px;
+}
+ .first-info{
+    margin-bottom: 0px;
+    color: #7f7f7f;
+    font-size: 16px;
+    font-weight: 600;
+}
+ .scnd-info{
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+ .main-info{
+    background-color:#000;
+    padding: 15px 0px 15px 30px;
+    margin-bottom:15px;
+}
+ .info-inner{
+    padding: 10px 0px 10px 0px;
+    background-color: #fff;
+     width: 100%;
+     margin: auto;
+     border-radius: 7px;
+}
+ .liststyle2{
+    background-color:#000;
+}
+ .dogimg1{
+    height:85px;
+     width:85px;
+     border-radius:50%;
+     border:2px solid #000;
+    box-shadow: 1px 2px 1px 1px #9a9a9a;
+}
+ #dog-nd-cutomerlist{
+    background: #d7d7d7;
+    min-height: 90vh;
+    overflow-y: auto;
+    padding-top:10vh;
+    padding-top:20vh;
+}
+ .no-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+ .header-dog-icon{
+    position:absolute;
+    right:15px;
+}
+/***--- Dog Customer Listing SCREEN CSS ends---****/
+/***--- Person Listing SCREEN CSS ---****/
+ .info-inner-personlist{
+    padding: 10px 5px 10px 5px;
+    background-color: #fff;
+     width: 100%;
+     margin: auto;
+     border-radius: 7px;
+}
+ .text-red{
+    color:#e91e27;
+}
+ .text-black{
+    color:#000;
+}
+ .cutomer-name-pl{
+    font-size:16px;
+     margin-bottom:5px;
+    padding-left:15px;
+     padding-top: 10px;
+}
+ .customer-info{
+    font-size:14px;
+    padding-left:15px;
+    margin-bottom: 0px;
+}
+/***--- End Person Listing SCREEN CSS ---****/
+/***--- Person address fill up SCREEN CSS ---****/
+ #cutomer-address-main{
+    min-height: calc(100vh - 170px);
+    background: #d7d7d7;
+    padding-top: 73px;
+    overflow: auto;
+    padding-bottom: 80px;
+}
+ .cutomer-address-inner{
+    background-color: #fff;
+    height: auto;
+    padding: 20px;
+}
+ .address-bar{
+    padding-left:5px;
+    overflow: hidden;
+}
+ .address-iput{
+    width:100%;
+    border:none;
+    padding-left:10px;
+    border-bottom:1px solid #171515;
+    height: 42px;
+     margin-bottom: 15px;
+     border-radius: 0px !important;
+    background-color:#fff !important;
+}
+ .add-btn{
+    background: #e91e27;
+    color: #fff;
+    width: 75px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px grey;
+    cursor:pointer;
+}
+ .main-add-btn{
+    width:100%;
+    margin:auto;
+    text-align:center;
+     padding-top: 20px;
+}
+ input.file {
+    border:none;
+}
+/***--- END Person address fill up SCREEN CSS ---****/
+ .cutomer-name-choose{
+    width: 100%;
+    height:43px;
+    border:none !important;
+    color: grey;
+    margin-bottom: 15px;
+     padding:7px;
+    border-bottom: 1px solid #171515 !important;
+    outline:0;
+    background-color: #fff !important;
+     box-shadow: 0px 0px 0px !important;
+}
+/***--- Dog main SCREEN CSS ---****/
+ .only-dog-main{
+     height: 30vh;
+    padding: 10px;
+}
+ .only-dog-inner{
+    width:100%;
+    height: 27vh;
+    background-color: #fff;
+    margin: auto;
+     padding: 10px;
+}
+ .dog-name{
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+ .dog-main-info{
+    margin-bottom:0px;
+}
+ input.file_input_with_replacement {
+    position: absolute;
+     opacity: 0;
+}
+ input.file_input_replacement {
+    padding: 10px;
+    border-bottom:1px solid #171515 !important;
+     border: none;
+    outline:0;
+    height: 42px;
+    margin-bottom: 15px;
+    width:100%;
+}
+ .file_input_replacement {
+    color:#000;
+    padding:7px 10px;
+    border:none;
+    outline:0;
+}
+ input::placeholder {
+    color: grey !important;
+}
+ .cutomerlistbdy{
+    background: #d7d7d7;
+}
+/***--- END Dog main SCREEN CSS ---****/
+ @media screen and (min-width: 768px) {
+     .headerstyle{
+        background: #e91e27;
+        height: 7vh;
+         position: fixed;
+        width:100%;
+        z-index:99999;
+    }
+     .footerstyle{
+        background:#e91e27;
+         height:7vh;
+         position:fixed;
+        width:100%;
+        bottom: 0px;
+    }
+     #doglist{
+        background:#d7d7d7;
+         height:63vh;
+         overflow-y:auto;
+        margin-top:0vh;
+    }
+     .address-iput{
+        height:50px;
+        font-size: 20px;
+    }
+     input.file_input_replacement{
+        width:100%;
+        height:50px;
+        font-size: 20px;
+        margin-top:0px;
+    }
+     .cutomer-name-choose{
+        height:60px;
+        font-size: 25px;
+    }
+     .add-btn{
+        width: 90px;
+        padding: 5px;
+        font-size: 25px;
+    }
+     #dog-nd-cutomerlist{
+        margin-top:7vh;
+        height:86vh;
+        padding-top:0px;
+    }
+     .liststyle{
+        padding: 30px;
+    }
+     .dogimg img {
+        height:100px;
+        width: 100px;
+    }
+     .dogimg1{
+        height:100px;
+        width:100px;
+        margin-top: 8px;
+    }
+     .cutomer-name-pl{
+        font-size:25px;
+    }
+     .customer-info{
+        font-size:22px;
+    }
+     .first-info{
+        font-size:22px;
+    }
+     .scnd-info{
+        font-size:20px;
+    }
+     .liststyle h4{
+        font-size:25px;
+    }
+     .liststyle h5{
+        font-size:22px;
+    }
+     .liststyle h6{
+        font-size:22px;
+    }
+     .liststyle span{
+        font-size:25px;
+    }
+     .address-iput {
+        height: 60px;
+        font-size: 25px;
+    }
+     .search-bar-main{
+        height:10vh;
+        top:10vh;
+    }
+     input.file_input_replacement {
+         height: 60px;
+         font-size: 25px;
+    }
+     #cutomer-address-main {
+         height: 93vh;
+    }
+}
+ @media screen and (min-width:300px) and (max-width:480px){
+     .headerstyle{
+        z-index:9999;
+    }
+     .footerstyle {
+        background: #e91e27;
+        position: fixed;
+        bottom: 0px;
+        z-index: 20;
+        width: 100%;
+    }
+     .liststyle{
+        padding:5px;
+    }
+     .liststyle span{
+        line-height:14px;
+    }
+     .liststyle h4{
+        font-size: 14px;
+        padding-top: 6px;
+    }
+     .liststyle h5{
+        font-size: 12px;
+    }
+     .liststyle h6{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+     .dogimg img {
+        height: 60px;
+        width: 60px;
+    }
+     .first-info{
+        font-weight:500;
+        font-size: 15px;
+    }
+     .scnd-info{
+        font-size:14px;
+    }
+     .address-iput{
+        height:32px;
+    }
+     .cutomer-name-pl{
+        padding-left: 25px;
+    }
+     .customer-info{
+        padding-left: 25px;
+    }
+     .input.file_input_replacement{
+        height:32px;
+    }
+     .search-bar-main{
+        height: 60px;
+        top: 60px;
+    }
+     #dog-nd-cutomerlist{
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+}
+ .address-bdy{
+    background:#d7d7d7;
+}
+ div.footer-icon-active a, div.footer-icon a {
+     color: white;
+}
+ span.back_button {
+     position: fixed;
+     left: 10px;
+     z-index:50;
+     padding: 20px 10px;
+}
+/********** Setting Page *******************/
+ #seting-bg{
+    background: #fff;
+}
+ .bg-set{
+    background: #dadada;
+}
+ .pad-10{
+    padding:10px;
+}
+ .setting-inner{
+    margin: auto;
+    background-color: #fff;
+    height: auto;
+    padding: 10px 0px;
+     width: 96%;
+}
+ .setting-p{
+    font-size: 18px;
+    padding-bottom: 5px;
+     border-bottom: 1px solid #cecece;
+}
+/********** Setting Page Ends***************/
+/************User Profile New *******************/
+ #new-user-profile{
+    margin-top:10vh;
+    background: #dadada;
+}
+ .profile-user{
+     background: #fff;
+     margin-bottom:0px;
+}
+ .profile-user h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+ .profile-user h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #2a2a2a;
+     margin-bottom: 5px;
+}
+ #dog-list {
+    height:65vh;
+    overflow-y: auto;
+    background: #dadada;
+}
+/**********User Profile New End*******************/
